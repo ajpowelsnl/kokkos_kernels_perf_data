@@ -1,0 +1,2 @@
+Mean Runtime Report (sec.)  ,  ,  ,  ,  , 
+Kernel    , Base_Seq , Lambda_Seq , RAJA_Seq , Kokkos_Lambda , Kokkos_Functor
