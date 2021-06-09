@@ -1,0 +1,174 @@
+__rec=node,id=12,attr=10,data=64,parent=3
+__rec=node,id=13,attr=8,data=attribute.alias,parent=12
+__rec=node,id=14,attr=8,data=attribute.unit,parent=12
+__rec=node,id=67,attr=14,data=sec,parent=5
+__rec=node,id=68,attr=13,data=Min time/rank,parent=67
+__rec=node,id=69,attr=10,data=65,parent=68
+__rec=node,id=70,attr=8,data=min#inclusive#sum#time.duration,parent=69
+__rec=node,id=71,attr=13,data=Max time/rank,parent=67
+__rec=node,id=72,attr=10,data=65,parent=71
+__rec=node,id=73,attr=8,data=max#inclusive#sum#time.duration,parent=72
+__rec=node,id=74,attr=13,data=Avg time/rank,parent=67
+__rec=node,id=75,attr=10,data=65,parent=74
+__rec=node,id=76,attr=8,data=avg#inclusive#sum#time.duration,parent=75
+__rec=node,id=79,attr=10,data=193,parent=5
+__rec=node,id=80,attr=8,data=avg.sum#inclusive#sum#time.duration,parent=79
+__rec=node,id=77,attr=10,data=193,parent=2
+__rec=node,id=78,attr=8,data=avg.count#inclusive#sum#time.duration,parent=77
+__rec=node,id=81,attr=13,data=Total time,parent=67
+__rec=node,id=82,attr=10,data=65,parent=81
+__rec=node,id=83,attr=8,data=sum#inclusive#sum#time.duration,parent=82
+__rec=node,id=15,attr=8,data=spot.channel,parent=12
+__rec=node,id=84,attr=15,data=regionprofile
+__rec=ctx,ref=84,attr=70=73=76=80=78=83,data=5.352113=5.352113=5.352113=5.352113=1=5.352113
+__rec=node,id=31,attr=10,data=276,parent=3
+__rec=node,id=32,attr=8,data=function,parent=31
+__rec=node,id=38,attr=32,data=Kokkos::View::initialization [rowmap_view]
+__rec=ctx,ref=38=84,attr=70=73=76=80=78=83,data=0.000237=0.000237=0.000237=0.000237=1=0.000237
+__rec=node,id=40,attr=32,data=Kokkos::View::initialization [colsmap_view]
+__rec=ctx,ref=40=84,attr=70=73=76=80=78=83,data=0.000146=0.000146=0.000146=0.000146=1=0.000146
+__rec=node,id=42,attr=32,data=Kokkos::View::initialization [values_view]
+__rec=ctx,ref=42=84,attr=70=73=76=80=78=83,data=0.000149=0.000149=0.000149=0.000149=1=0.000149
+__rec=node,id=44,attr=32,data=Kokkos::View::initialization [rowmap_view_mirror]
+__rec=ctx,ref=44=84,attr=70=73=76=80=78=83,data=0.000159=0.000159=0.000159=0.000159=1=0.000159
+__rec=node,id=46,attr=32,data=Kokkos::View::initialization [colsmap_view_mirror]
+__rec=ctx,ref=46=84,attr=70=73=76=80=78=83,data=0.000799=0.000799=0.000799=0.000799=1=0.000799
+__rec=node,id=48,attr=32,data=Kokkos::View::initialization [values_view_mirror]
+__rec=ctx,ref=48=84,attr=70=73=76=80=78=83,data=0.001641=0.001641=0.001641=0.001641=1=0.001641
+__rec=node,id=51,attr=32,data=KokkosKernels::Common::ReduceMax
+__rec=ctx,ref=51=84,attr=70=73=76=80=78=83,data=0.000146=0.000146=0.000146=0.000146=1=0.000146
+__rec=node,id=53,attr=32,data=Kokkos::View::initialization [X]
+__rec=ctx,ref=53=84,attr=70=73=76=80=78=83,data=0.000107=0.000107=0.000107=0.000107=1=0.000107
+__rec=node,id=55,attr=32,data=Kokkos::View::initialization [Y]
+__rec=ctx,ref=55=84,attr=70=73=76=80=78=83,data=0.000088=0.000088=0.000088=0.000088=1=0.000088
+__rec=node,id=57,attr=32,data=Kokkos::View::initialization [X_mirror]
+__rec=ctx,ref=57=84,attr=70=73=76=80=78=83,data=0.000103=0.000103=0.000103=0.000103=1=0.000103
+__rec=node,id=59,attr=32,data=Kokkos::View::initialization [Y_mirror]
+__rec=ctx,ref=59=84,attr=70=73=76=80=78=83,data=0.000208=0.000208=0.000208=0.000208=1=0.000208
+__rec=node,id=61,attr=32,data=Kokkos::View::initialization [X1]
+__rec=ctx,ref=61=84,attr=70=73=76=80=78=83,data=0.000105=0.000105=0.000105=0.000105=1=0.000105
+__rec=node,id=63,attr=32,data=Kokkos::View::initialization [Y1]
+__rec=ctx,ref=63=84,attr=70=73=76=80=78=83,data=0.000092=0.000092=0.000092=0.000092=1=0.000092
+__rec=node,id=66,attr=32,data=KokkosSparse::spmv[TPL_CUSPARSE\,double]
+__rec=ctx,ref=66=84,attr=70=73=76=80=78=83,data=0.365782=0.365782=0.365782=0.365782=1=0.365782
+__rec=node,id=191,attr=10,data=512,parent=3
+__rec=node,id=196,attr=8,data=spot.options,parent=191
+__rec=node,id=194,attr=10,data=512,parent=1
+__rec=node,id=195,attr=8,data=spot.format.version,parent=194
+__rec=node,id=193,attr=8,data=spot.timeseries.metrics,parent=191
+__rec=node,id=192,attr=8,data=spot.metrics,parent=191
+__rec=node,id=16,attr=10,data=1612,parent=3
+__rec=node,id=17,attr=8,data=cali.caliper.version,parent=16
+__rec=node,id=18,attr=17,data=2.6.0-dev
+__rec=node,id=197,attr=192,data=min#inclusive#sum#time.duration\,max#inclusive#sum#time.duration\,avg#inclusive#sum#time.duration\,sum#inclusive#sum#time.duration,parent=18
+__rec=node,id=198,attr=193,data=,parent=197
+__rec=node,id=199,attr=195,data=2,parent=198
+__rec=node,id=200,attr=196,data=profile.kokkos,parent=199
+__rec=node,id=19,attr=10,data=84,parent=3
+__rec=node,id=85,attr=8,data=adiak.subcategory,parent=19
+__rec=node,id=86,attr=10,data=84,parent=1
+__rec=node,id=87,attr=8,data=adiak.category,parent=86
+__rec=node,id=88,attr=8,data=adiak.type,parent=19
+__rec=node,id=89,attr=88,data=double,parent=5
+__rec=node,id=90,attr=87,data=2,parent=89
+__rec=node,id=91,attr=85,data=none,parent=90
+__rec=node,id=92,attr=10,data=1612,parent=91
+__rec=node,id=93,attr=8,data=Kokkos Version,parent=92
+__rec=node,id=94,attr=88,data=string,parent=3
+__rec=node,id=95,attr=87,data=2,parent=94
+__rec=node,id=96,attr=85,data=none,parent=95
+__rec=node,id=97,attr=10,data=1612,parent=96
+__rec=node,id=98,attr=8,data=KOKKOS_ENABLE_PRAGMA_VECTOR,parent=97
+__rec=node,id=99,attr=8,data=KOKKOS_ENABLE_PRAGMA_UNROLL,parent=97
+__rec=node,id=100,attr=8,data=KOKKOS_ENABLE_PRAGMA_SIMD,parent=97
+__rec=node,id=101,attr=8,data=KOKKOS_ENABLE_PRAGMA_LOOPCOUNT,parent=97
+__rec=node,id=102,attr=8,data=KOKKOS_ENABLE_PRAGMA_IVDEP,parent=97
+__rec=node,id=103,attr=8,data=compiler_family,parent=97
+__rec=node,id=104,attr=8,data=KOKKOS_ENABLE_MPI,parent=97
+__rec=node,id=105,attr=8,data=KOKKOS_ENABLE_LIBRT,parent=97
+__rec=node,id=106,attr=8,data=KOKKOS_ENABLE_HWLOC,parent=97
+__rec=node,id=107,attr=8,data=KOKKOS_ENABLE_DEBUG_BOUNDS_CHECK,parent=97
+__rec=node,id=108,attr=8,data=KOKKOS_ENABLE_CXX20,parent=97
+__rec=node,id=109,attr=8,data=KOKKOS_ENABLE_CXX17,parent=97
+__rec=node,id=110,attr=8,data=KOKKOS_ENABLE_CXX14,parent=97
+__rec=node,id=111,attr=8,data=KOKKOS_ENABLE_ASM,parent=97
+__rec=node,id=112,attr=8,data=KOKKOS_ENABLE_POSIX_MEMALIGN,parent=97
+__rec=node,id=113,attr=8,data=KOKKOS_ENABLE_INTEL_MM_ALLOC,parent=97
+__rec=node,id=114,attr=8,data=KOKKOS_ENABLE_HBWSPACE,parent=97
+__rec=node,id=115,attr=8,data=KOKKOS_COMPILER_NVCC,parent=92
+__rec=node,id=116,attr=8,data=KOKKOS_COMPILER_GNU,parent=92
+__rec=node,id=117,attr=8,data=KOKKOS_ENABLE_WINDOWS_ATOMICS,parent=97
+__rec=node,id=118,attr=8,data=KOKKOS_ENABLE_INTEL_ATOMICS,parent=97
+__rec=node,id=119,attr=8,data=KOKKOS_ENABLE_GNU_ATOMICS,parent=97
+__rec=node,id=120,attr=8,data=KOKKOS_ENABLE_ISA_X86_64,parent=97
+__rec=node,id=121,attr=8,data=KOKKOS_ENABLE_ISA_POWERPCLE,parent=97
+__rec=node,id=122,attr=8,data=KOKKOS_ENABLE_ISA_KNC,parent=97
+__rec=node,id=123,attr=8,data=Default Device,parent=97
+__rec=node,id=124,attr=88,data=unsigned int,parent=2
+__rec=node,id=125,attr=87,data=2,parent=124
+__rec=node,id=126,attr=85,data=mpi,parent=125
+__rec=node,id=127,attr=10,data=1612,parent=126
+__rec=node,id=128,attr=8,data=jobsize,parent=127
+__rec=node,id=129,attr=85,data=host,parent=95
+__rec=node,id=130,attr=10,data=1612,parent=129
+__rec=node,id=131,attr=8,data=cluster,parent=130
+__rec=node,id=132,attr=88,data=set of string,parent=3
+__rec=node,id=133,attr=87,data=2,parent=132
+__rec=node,id=134,attr=85,data=runinfo,parent=133
+__rec=node,id=135,attr=10,data=1612,parent=134
+__rec=node,id=136,attr=8,data=cmdline,parent=135
+__rec=node,id=137,attr=88,data=set of path,parent=3
+__rec=node,id=138,attr=87,data=2,parent=137
+__rec=node,id=139,attr=85,data=binary,parent=138
+__rec=node,id=140,attr=10,data=1612,parent=139
+__rec=node,id=141,attr=8,data=libraries,parent=140
+__rec=node,id=142,attr=88,data=path,parent=3
+__rec=node,id=143,attr=87,data=2,parent=142
+__rec=node,id=144,attr=85,data=binary,parent=143
+__rec=node,id=145,attr=10,data=1612,parent=144
+__rec=node,id=146,attr=8,data=executablepath,parent=145
+__rec=node,id=147,attr=88,data=date,parent=2
+__rec=node,id=148,attr=87,data=2,parent=147
+__rec=node,id=149,attr=85,data=runinfo,parent=148
+__rec=node,id=150,attr=10,data=1612,parent=149
+__rec=node,id=151,attr=8,data=launchdate,parent=150
+__rec=node,id=152,attr=85,data=runinfo,parent=95
+__rec=node,id=153,attr=10,data=1612,parent=152
+__rec=node,id=154,attr=8,data=user,parent=153
+__rec=node,id=155,attr=8,data=cali.channel,parent=16
+__rec=node,id=156,attr=155,data=spot
+__rec=node,id=157,attr=154,data=jenkins,parent=156
+__rec=node,id=158,attr=151,data=1623278216,parent=157
+__rec=node,id=159,attr=146,data=/home/jenkins/weaver/workspace/KokkosKernels_develop_weaver_cuda_rps_perf_testing/kokkos_kernels_rps_perf_testing_dir/build_kk_weaver/tpls/rajaperf/bin/tracked_testing,parent=158
+__rec=node,id=160,attr=141,data=[/lib64/libcuda.so.1\,/home/projects/ppc64le-pwr9-nvidia/cuda/10.1.105/lib64/libcudart.so.10.1\,/lib64/libdl.so.2\,/home/projects/ppc64le-pwr9-nvidia/cuda/10.1.105/lib64/libcublas.so.10\,/home/projects/ppc64le-pwr9-nvidia/cuda/10.1.105/lib64/libcusparse.so.10\,/lib64/librt.so.1\,/lib64/libpthread.so.0\,/home/projects/ppc64le/gcc/7.2.0/lib64/libstdc++.so.6\,/lib64/libm.so.6\,/home/projects/ppc64le/gcc/7.2.0/lib64/libgcc_s.so.1\,/lib64/libc.so.6\,/lib64/ld64.so.2\,/home/projects/ppc64le-pwr9-nvidia/cuda/10.1.105/lib64/libcublasLt.so.10\,/home/jenkins/weaver/workspace/KokkosKernels_develop_weaver_cuda_rps_perf_testing/kokkos_kernels_rps_perf_testing_dir/build_kk_weaver/spot_kokkos_bundle/spot_tools_build_dir/libspot-bundle.so\,/home/jenkins/weaver/workspace/KokkosKernels_develop_weaver_cuda_rps_perf_testing/kokkos_kernels_rps_perf_testing_dir/build_kk_weaver/spot_kokkos_bundle/spot_tools_build_dir/tpl/caliper/src/libcaliper.so.2\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libmpi.so.40\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libmpi_usempif08.so.40\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libmpi_usempi_ignore_tkr.so.40\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libmpi_mpifh.so.40\,/home/projects/ppc64le/gcc/7.2.0/lib64/libgfortran.so.4\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libopen-rte.so.40\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libopen-pal.so.40\,/lib64/libutil.so.1\,/lib64/libz.so.1\,/lib64/libnss_files.so.2\,/lib64/libnss_ldap.so.2],parent=159
+__rec=node,id=161,attr=136,data=[./tpls/rajaperf/bin/tracked_testing\,--input-data\,/home/jenkins/weaver/workspace/data-for-kernels/data],parent=160
+__rec=node,id=162,attr=131,data=weaver,parent=161
+__rec=node,id=163,attr=128,data=1,parent=162
+__rec=node,id=164,attr=123,data=N6Kokkos4CudaE,parent=163
+__rec=node,id=165,attr=122,data=no,parent=164
+__rec=node,id=166,attr=121,data=no,parent=165
+__rec=node,id=167,attr=120,data=no,parent=166
+__rec=node,id=168,attr=119,data=yes,parent=167
+__rec=node,id=169,attr=118,data=no,parent=168
+__rec=node,id=170,attr=117,data=no,parent=169
+__rec=node,id=171,attr=116,data=720.000000,parent=170
+__rec=node,id=172,attr=115,data=1.000000,parent=171
+__rec=node,id=173,attr=114,data=no,parent=172
+__rec=node,id=174,attr=113,data=no,parent=173
+__rec=node,id=175,attr=112,data=no,parent=174
+__rec=node,id=176,attr=111,data=yes,parent=175
+__rec=node,id=177,attr=110,data=yes,parent=176
+__rec=node,id=178,attr=109,data=no,parent=177
+__rec=node,id=179,attr=108,data=no,parent=178
+__rec=node,id=180,attr=107,data=no,parent=179
+__rec=node,id=181,attr=106,data=no,parent=180
+__rec=node,id=182,attr=105,data=no,parent=181
+__rec=node,id=183,attr=104,data=no,parent=182
+__rec=node,id=184,attr=103,data=nvcc,parent=183
+__rec=node,id=185,attr=102,data=no,parent=184
+__rec=node,id=186,attr=101,data=no,parent=185
+__rec=node,id=187,attr=100,data=no,parent=186
+__rec=node,id=188,attr=99,data=no,parent=187
+__rec=node,id=189,attr=98,data=no,parent=188
+__rec=node,id=190,attr=93,data=3.400000,parent=189
+__rec=globals,ref=200=190
