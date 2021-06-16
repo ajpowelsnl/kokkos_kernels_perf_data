@@ -1,0 +1,5 @@
+Speedup Report (T_ref/T_var): ref var = Base_Seq  ,  ,  ,  ,  , 
+Kernel                     , Base_Seq , Lambda_Seq , RAJA_Seq , Kokkos_Lambda , Kokkos_Functor
+BLAS_DOT                   ,  Not run ,    Not run ,  Not run ,       Not run ,        Not run
+Sparse_SPMV:uur/dataset_0  ,  Not run ,    Not run ,  Not run ,       Not run ,        Not run
+Sparse_SPMV:uur/dataset_1  ,  Not run ,    Not run ,  Not run ,       Not run ,        Not run
