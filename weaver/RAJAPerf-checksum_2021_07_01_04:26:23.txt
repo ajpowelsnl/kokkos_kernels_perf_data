@@ -1,0 +1,34 @@
+===================================================================================================
+Checksum Report 
+===================================================================================================
+Kernel                    
+........................................................
+Variants                  Checksum                    Checksum Diff (vs. first variant listed)
+----------------------------------------------------------------------------------------
+BLAS_DOT                  
+........................................................
+Base_Seq                  Not Run                     Not Run                     
+Lambda_Seq                Not Run                     Not Run                     
+RAJA_Seq                  Not Run                     Not Run                     
+Kokkos_Lambda             4.0562645811937120020e-144  0.0000000000000000000       
+Kokkos_Functor            Not Run                     Not Run                     
+
+-------------------------------------------------------
+Sparse_SPMV:uur/dataset_0 
+........................................................
+Base_Seq                  Not Run                     Not Run                     
+Lambda_Seq                Not Run                     Not Run                     
+RAJA_Seq                  Not Run                     Not Run                     
+Kokkos_Lambda             4.9545922918869138592e+223  0.0000000000000000000       
+Kokkos_Functor            Not Run                     Not Run                     
+
+-------------------------------------------------------
+Sparse_SPMV:uur/dataset_1 
+........................................................
+Base_Seq                  Not Run                     Not Run                     
+Lambda_Seq                Not Run                     Not Run                     
+RAJA_Seq                  Not Run                     Not Run                     
+Kokkos_Lambda             4.7809209317167358939e+180  0.0000000000000000000       
+Kokkos_Functor            Not Run                     Not Run                     
+
+-------------------------------------------------------
