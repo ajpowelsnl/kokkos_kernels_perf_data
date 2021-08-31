@@ -1,0 +1,188 @@
+__rec=node,id=12,attr=10,data=64,parent=3
+__rec=node,id=13,attr=8,data=attribute.alias,parent=12
+__rec=node,id=14,attr=8,data=attribute.unit,parent=12
+__rec=node,id=81,attr=14,data=sec,parent=5
+__rec=node,id=82,attr=13,data=Min time/rank,parent=81
+__rec=node,id=83,attr=10,data=65,parent=82
+__rec=node,id=84,attr=8,data=min#inclusive#sum#time.duration,parent=83
+__rec=node,id=85,attr=13,data=Max time/rank,parent=81
+__rec=node,id=86,attr=10,data=65,parent=85
+__rec=node,id=87,attr=8,data=max#inclusive#sum#time.duration,parent=86
+__rec=node,id=88,attr=13,data=Avg time/rank,parent=81
+__rec=node,id=89,attr=10,data=65,parent=88
+__rec=node,id=90,attr=8,data=avg#inclusive#sum#time.duration,parent=89
+__rec=node,id=93,attr=10,data=193,parent=5
+__rec=node,id=94,attr=8,data=avg.sum#inclusive#sum#time.duration,parent=93
+__rec=node,id=91,attr=10,data=193,parent=2
+__rec=node,id=92,attr=8,data=avg.count#inclusive#sum#time.duration,parent=91
+__rec=node,id=95,attr=13,data=Total time,parent=81
+__rec=node,id=96,attr=10,data=65,parent=95
+__rec=node,id=97,attr=8,data=sum#inclusive#sum#time.duration,parent=96
+__rec=node,id=15,attr=8,data=spot.channel,parent=12
+__rec=node,id=98,attr=15,data=regionprofile
+__rec=ctx,ref=98,attr=84=87=90=94=92=97,data=5.438570=5.438570=5.438570=5.438570=1=5.438570
+__rec=node,id=31,attr=10,data=276,parent=3
+__rec=node,id=32,attr=8,data=function,parent=31
+__rec=node,id=38,attr=32,data=Kokkos::View::initialization [rowmap_view]
+__rec=ctx,ref=38=98,attr=84=87=90=94=92=97,data=0.000197=0.000197=0.000197=0.000197=1=0.000197
+__rec=node,id=40,attr=32,data=Kokkos::View::initialization [colsmap_view]
+__rec=ctx,ref=40=98,attr=84=87=90=94=92=97,data=0.000147=0.000147=0.000147=0.000147=1=0.000147
+__rec=node,id=42,attr=32,data=Kokkos::View::initialization [values_view]
+__rec=ctx,ref=42=98,attr=84=87=90=94=92=97,data=0.000149=0.000149=0.000149=0.000149=1=0.000149
+__rec=node,id=44,attr=32,data=Kokkos::View::initialization [Kokkos::Random_XorShift64::locks]
+__rec=ctx,ref=44=98,attr=84=87=90=94=92=97,data=0.000061=0.000061=0.000061=0.000061=1=0.000061
+__rec=node,id=46,attr=32,data=Kokkos::View::initialization [Kokkos::Random_XorShift64::state]
+__rec=ctx,ref=46=98,attr=84=87=90=94=92=97,data=0.000071=0.000071=0.000071=0.000071=1=0.000071
+__rec=node,id=48,attr=32,data=Kokkos::View::initialization [Kokkos::Random_XorShift64::state_mirror]
+__rec=ctx,ref=48=98,attr=84=87=90=94=92=97,data=0.000084=0.000084=0.000084=0.000084=1=0.000084
+__rec=node,id=50,attr=32,data=Kokkos::View::initialization [Kokkos::Random_XorShift64::locks_mirror]
+__rec=ctx,ref=50=98,attr=84=87=90=94=92=97,data=0.000053=0.000053=0.000053=0.000053=1=0.000053
+__rec=node,id=52,attr=32,data=Kokkos::fill_random
+__rec=ctx,ref=52=98,attr=84=87=90=94=92=97,data=0.000097=0.000097=0.000097=0.000097=1=0.000097
+__rec=node,id=55,attr=32,data=KokkosBlas::dot[ETI]
+__rec=ctx,ref=55=98,attr=84=87=90=94=92=97,data=0.003696=0.003696=0.003696=0.003696=1=0.003696
+__rec=node,id=58,attr=32,data=KokkosBlas::dot<1D>,parent=55
+__rec=ctx,ref=58=98,attr=84=87=90=94=92=97,data=0.001758=0.001758=0.001758=0.001758=1=0.001758
+__rec=node,id=60,attr=32,data=Kokkos::ViewFill-1D
+__rec=ctx,ref=60=98,attr=84=87=90=94=92=97,data=0.000082=0.000082=0.000082=0.000082=1=0.000082
+__rec=node,id=62,attr=32,data=TeamDotUsage_RPS
+__rec=ctx,ref=62=98,attr=84=87=90=94=92=97,data=0.018106=0.018106=0.018106=0.018106=1=0.018106
+__rec=node,id=64,attr=32,data=Kokkos::View::initialization [X]
+__rec=ctx,ref=64=98,attr=84=87=90=94=92=97,data=0.000092=0.000092=0.000092=0.000092=1=0.000092
+__rec=node,id=66,attr=32,data=Kokkos::View::initialization [Y]
+__rec=ctx,ref=66=98,attr=84=87=90=94=92=97,data=0.000085=0.000085=0.000085=0.000085=1=0.000085
+__rec=node,id=68,attr=32,data=Kokkos::View::initialization [X_mirror]
+__rec=ctx,ref=68=98,attr=84=87=90=94=92=97,data=0.000091=0.000091=0.000091=0.000091=1=0.000091
+__rec=node,id=70,attr=32,data=Kokkos::View::initialization [Y_mirror]
+__rec=ctx,ref=70=98,attr=84=87=90=94=92=97,data=0.000202=0.000202=0.000202=0.000202=1=0.000202
+__rec=node,id=72,attr=32,data=Kokkos::View::initialization [rowmap_view_mirror]
+__rec=ctx,ref=72=98,attr=84=87=90=94=92=97,data=0.000083=0.000083=0.000083=0.000083=1=0.000083
+__rec=node,id=74,attr=32,data=Kokkos::View::initialization [colsmap_view_mirror]
+__rec=ctx,ref=74=98,attr=84=87=90=94=92=97,data=0.000371=0.000371=0.000371=0.000371=1=0.000371
+__rec=node,id=76,attr=32,data=Kokkos::View::initialization [values_view_mirror]
+__rec=ctx,ref=76=98,attr=84=87=90=94=92=97,data=0.001052=0.001052=0.001052=0.001052=1=0.001052
+__rec=node,id=78,attr=32,data=Kokkos::View::initialization [X1]
+__rec=ctx,ref=78=98,attr=84=87=90=94=92=97,data=0.000112=0.000112=0.000112=0.000112=1=0.000112
+__rec=node,id=80,attr=32,data=Kokkos::View::initialization [Y1]
+__rec=ctx,ref=80=98,attr=84=87=90=94=92=97,data=0.000087=0.000087=0.000087=0.000087=1=0.000087
+__rec=node,id=205,attr=10,data=512,parent=3
+__rec=node,id=210,attr=8,data=spot.options,parent=205
+__rec=node,id=208,attr=10,data=512,parent=1
+__rec=node,id=209,attr=8,data=spot.format.version,parent=208
+__rec=node,id=207,attr=8,data=spot.timeseries.metrics,parent=205
+__rec=node,id=206,attr=8,data=spot.metrics,parent=205
+__rec=node,id=16,attr=10,data=1612,parent=3
+__rec=node,id=17,attr=8,data=cali.caliper.version,parent=16
+__rec=node,id=18,attr=17,data=2.6.0-dev
+__rec=node,id=211,attr=206,data=min#inclusive#sum#time.duration\,max#inclusive#sum#time.duration\,avg#inclusive#sum#time.duration\,sum#inclusive#sum#time.duration,parent=18
+__rec=node,id=212,attr=207,data=,parent=211
+__rec=node,id=213,attr=209,data=2,parent=212
+__rec=node,id=214,attr=210,data=profile.kokkos,parent=213
+__rec=node,id=19,attr=10,data=84,parent=3
+__rec=node,id=99,attr=8,data=adiak.subcategory,parent=19
+__rec=node,id=100,attr=10,data=84,parent=1
+__rec=node,id=101,attr=8,data=adiak.category,parent=100
+__rec=node,id=102,attr=8,data=adiak.type,parent=19
+__rec=node,id=103,attr=102,data=double,parent=5
+__rec=node,id=104,attr=101,data=2,parent=103
+__rec=node,id=105,attr=99,data=none,parent=104
+__rec=node,id=106,attr=10,data=1612,parent=105
+__rec=node,id=107,attr=8,data=Kokkos Version,parent=106
+__rec=node,id=108,attr=102,data=string,parent=3
+__rec=node,id=109,attr=101,data=2,parent=108
+__rec=node,id=110,attr=99,data=none,parent=109
+__rec=node,id=111,attr=10,data=1612,parent=110
+__rec=node,id=112,attr=8,data=KOKKOS_ENABLE_PRAGMA_VECTOR,parent=111
+__rec=node,id=113,attr=8,data=KOKKOS_ENABLE_PRAGMA_UNROLL,parent=111
+__rec=node,id=114,attr=8,data=KOKKOS_ENABLE_PRAGMA_SIMD,parent=111
+__rec=node,id=115,attr=8,data=KOKKOS_ENABLE_PRAGMA_LOOPCOUNT,parent=111
+__rec=node,id=116,attr=8,data=KOKKOS_ENABLE_PRAGMA_IVDEP,parent=111
+__rec=node,id=117,attr=8,data=compiler_family,parent=111
+__rec=node,id=118,attr=8,data=KOKKOS_ENABLE_MPI,parent=111
+__rec=node,id=119,attr=8,data=KOKKOS_ENABLE_LIBRT,parent=111
+__rec=node,id=120,attr=8,data=KOKKOS_ENABLE_HWLOC,parent=111
+__rec=node,id=121,attr=8,data=KOKKOS_ENABLE_DEBUG_BOUNDS_CHECK,parent=111
+__rec=node,id=122,attr=8,data=KOKKOS_ENABLE_CXX20,parent=111
+__rec=node,id=123,attr=8,data=KOKKOS_ENABLE_CXX17,parent=111
+__rec=node,id=124,attr=8,data=KOKKOS_ENABLE_CXX14,parent=111
+__rec=node,id=125,attr=8,data=KOKKOS_ENABLE_ASM,parent=111
+__rec=node,id=126,attr=8,data=KOKKOS_ENABLE_POSIX_MEMALIGN,parent=111
+__rec=node,id=127,attr=8,data=KOKKOS_ENABLE_INTEL_MM_ALLOC,parent=111
+__rec=node,id=128,attr=8,data=KOKKOS_ENABLE_HBWSPACE,parent=111
+__rec=node,id=129,attr=8,data=KOKKOS_COMPILER_NVCC,parent=106
+__rec=node,id=130,attr=8,data=KOKKOS_COMPILER_GNU,parent=106
+__rec=node,id=131,attr=8,data=KOKKOS_ENABLE_WINDOWS_ATOMICS,parent=111
+__rec=node,id=132,attr=8,data=KOKKOS_ENABLE_INTEL_ATOMICS,parent=111
+__rec=node,id=133,attr=8,data=KOKKOS_ENABLE_GNU_ATOMICS,parent=111
+__rec=node,id=134,attr=8,data=KOKKOS_ENABLE_ISA_X86_64,parent=111
+__rec=node,id=135,attr=8,data=KOKKOS_ENABLE_ISA_POWERPCLE,parent=111
+__rec=node,id=136,attr=8,data=KOKKOS_ENABLE_ISA_KNC,parent=111
+__rec=node,id=137,attr=8,data=Default Device,parent=111
+__rec=node,id=138,attr=102,data=unsigned int,parent=2
+__rec=node,id=139,attr=101,data=2,parent=138
+__rec=node,id=140,attr=99,data=mpi,parent=139
+__rec=node,id=141,attr=10,data=1612,parent=140
+__rec=node,id=142,attr=8,data=jobsize,parent=141
+__rec=node,id=143,attr=99,data=host,parent=109
+__rec=node,id=144,attr=10,data=1612,parent=143
+__rec=node,id=145,attr=8,data=cluster,parent=144
+__rec=node,id=146,attr=102,data=set of string,parent=3
+__rec=node,id=147,attr=101,data=2,parent=146
+__rec=node,id=148,attr=99,data=runinfo,parent=147
+__rec=node,id=149,attr=10,data=1612,parent=148
+__rec=node,id=150,attr=8,data=cmdline,parent=149
+__rec=node,id=151,attr=102,data=set of path,parent=3
+__rec=node,id=152,attr=101,data=2,parent=151
+__rec=node,id=153,attr=99,data=binary,parent=152
+__rec=node,id=154,attr=10,data=1612,parent=153
+__rec=node,id=155,attr=8,data=libraries,parent=154
+__rec=node,id=156,attr=102,data=path,parent=3
+__rec=node,id=157,attr=101,data=2,parent=156
+__rec=node,id=158,attr=99,data=binary,parent=157
+__rec=node,id=159,attr=10,data=1612,parent=158
+__rec=node,id=160,attr=8,data=executablepath,parent=159
+__rec=node,id=161,attr=102,data=date,parent=2
+__rec=node,id=162,attr=101,data=2,parent=161
+__rec=node,id=163,attr=99,data=runinfo,parent=162
+__rec=node,id=164,attr=10,data=1612,parent=163
+__rec=node,id=165,attr=8,data=launchdate,parent=164
+__rec=node,id=166,attr=99,data=runinfo,parent=109
+__rec=node,id=167,attr=10,data=1612,parent=166
+__rec=node,id=168,attr=8,data=user,parent=167
+__rec=node,id=169,attr=8,data=cali.channel,parent=16
+__rec=node,id=170,attr=169,data=spot
+__rec=node,id=171,attr=168,data=jenkins,parent=170
+__rec=node,id=172,attr=165,data=1630402677,parent=171
+__rec=node,id=173,attr=160,data=/home/jenkins/weaver-new/workspace/KokkosKernels_develop_weaver_cuda_rps_perf_testing/kokkos_kernels_rps_perf_testing_dir/build_kk_weaver/tpls/rajaperf/bin/tracked_testing,parent=172
+__rec=node,id=174,attr=155,data=[/lib64/libcuda.so.1\,/home/projects/ppc64le-pwr9-nvidia/cuda/10.1.105/lib64/libcudart.so.10.1\,/lib64/libdl.so.2\,/lib64/librt.so.1\,/lib64/libpthread.so.0\,/home/projects/ppc64le/gcc/7.2.0/lib64/libstdc++.so.6\,/lib64/libm.so.6\,/home/projects/ppc64le/gcc/7.2.0/lib64/libgcc_s.so.1\,/lib64/libc.so.6\,/lib64/ld64.so.2\,/home/jenkins/weaver-new/workspace/KokkosKernels_develop_weaver_cuda_rps_perf_testing/kokkos_kernels_rps_perf_testing_dir/build_kk_weaver/spot_kokkos_bundle/spot_tools_build_dir/libspot-bundle.so\,/home/jenkins/weaver-new/workspace/KokkosKernels_develop_weaver_cuda_rps_perf_testing/kokkos_kernels_rps_perf_testing_dir/build_kk_weaver/spot_kokkos_bundle/spot_tools_build_dir/tpl/caliper/src/libcaliper.so.2\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libmpi.so.40\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libmpi_usempif08.so.40\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libmpi_usempi_ignore_tkr.so.40\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libmpi_mpifh.so.40\,/home/projects/ppc64le/gcc/7.2.0/lib64/libgfortran.so.4\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libopen-rte.so.40\,/home/projects/ppc64le-pwr9-nvidia/openmpi/4.0.1/gcc/7.2.0/cuda/10.1.105/lib/libopen-pal.so.40\,/lib64/libutil.so.1\,/lib64/libz.so.1\,/lib64/libnss_files.so.2\,/lib64/libnss_ldap.so.2],parent=173
+__rec=node,id=175,attr=150,data=[./tpls/rajaperf/bin/tracked_testing\,--input-data\,/home/jenkins/weaver-new/workspace/data-for-kernels/data],parent=174
+__rec=node,id=176,attr=145,data=weaver,parent=175
+__rec=node,id=177,attr=142,data=1,parent=176
+__rec=node,id=178,attr=137,data=N6Kokkos4CudaE,parent=177
+__rec=node,id=179,attr=136,data=no,parent=178
+__rec=node,id=180,attr=135,data=no,parent=179
+__rec=node,id=181,attr=134,data=no,parent=180
+__rec=node,id=182,attr=133,data=yes,parent=181
+__rec=node,id=183,attr=132,data=no,parent=182
+__rec=node,id=184,attr=131,data=no,parent=183
+__rec=node,id=185,attr=130,data=720.000000,parent=184
+__rec=node,id=186,attr=129,data=1.000000,parent=185
+__rec=node,id=187,attr=128,data=no,parent=186
+__rec=node,id=188,attr=127,data=no,parent=187
+__rec=node,id=189,attr=126,data=no,parent=188
+__rec=node,id=190,attr=125,data=yes,parent=189
+__rec=node,id=191,attr=124,data=yes,parent=190
+__rec=node,id=192,attr=123,data=no,parent=191
+__rec=node,id=193,attr=122,data=no,parent=192
+__rec=node,id=194,attr=121,data=no,parent=193
+__rec=node,id=195,attr=120,data=no,parent=194
+__rec=node,id=196,attr=119,data=no,parent=195
+__rec=node,id=197,attr=118,data=no,parent=196
+__rec=node,id=198,attr=117,data=nvcc,parent=197
+__rec=node,id=199,attr=116,data=no,parent=198
+__rec=node,id=200,attr=115,data=no,parent=199
+__rec=node,id=201,attr=114,data=no,parent=200
+__rec=node,id=202,attr=113,data=no,parent=201
+__rec=node,id=203,attr=112,data=no,parent=202
+__rec=node,id=204,attr=107,data=3.400000,parent=203
+__rec=globals,ref=214=204
