@@ -1,0 +1,43 @@
+===================================================================================================
+Checksum Report 
+===================================================================================================
+Kernel                    
+........................................................
+Variants                  Checksum                    Checksum Diff (vs. first variant listed)
+----------------------------------------------------------------------------------------
+BLAS_DOT                  
+........................................................
+Base_Seq                  Not Run                     Not Run                     
+Lambda_Seq                Not Run                     Not Run                     
+RAJA_Seq                  Not Run                     Not Run                     
+Kokkos_Lambda             4.2512533982713161656e-96   0.0000000000000000000       
+Kokkos_Functor            Not Run                     Not Run                     
+
+-------------------------------------------------------
+BLAS_TEAM_DOT             
+........................................................
+Base_Seq                  Not Run                     Not Run                     
+Lambda_Seq                Not Run                     Not Run                     
+RAJA_Seq                  Not Run                     Not Run                     
+Kokkos_Lambda             2.8894500272995691604e-110  0.0000000000000000000       
+Kokkos_Functor            Not Run                     Not Run                     
+
+-------------------------------------------------------
+Sparse_SPMV:uur/dataset_0 
+........................................................
+Base_Seq                  Not Run                     Not Run                     
+Lambda_Seq                Not Run                     Not Run                     
+RAJA_Seq                  Not Run                     Not Run                     
+Kokkos_Lambda             6.8335936216134019547e+25   0.0000000000000000000       
+Kokkos_Functor            Not Run                     Not Run                     
+
+-------------------------------------------------------
+Sparse_SPMV:uur/dataset_1 
+........................................................
+Base_Seq                  Not Run                     Not Run                     
+Lambda_Seq                Not Run                     Not Run                     
+RAJA_Seq                  Not Run                     Not Run                     
+Kokkos_Lambda             1.3572444127607906449e+248  0.0000000000000000000       
+Kokkos_Functor            Not Run                     Not Run                     
+
+-------------------------------------------------------
