@@ -1,0 +1,6 @@
+Mean Runtime Report (sec.)  ,  ,  ,  ,  , 
+Kernel                     , Base_Seq , Lambda_Seq , RAJA_Seq , Kokkos_Lambda , Kokkos_Functor
+BLAS_DOT                   ,  Not run ,    Not run ,  Not run ,      0.005312 ,        Not run
+BLAS_TEAM_DOT              ,  Not run ,    Not run ,  Not run ,      0.018594 ,        Not run
+Sparse_SPMV:uur/dataset_0  ,  Not run ,    Not run ,  Not run ,      0.000383 ,        Not run
+Sparse_SPMV:uur/dataset_1  ,  Not run ,    Not run ,  Not run ,      0.000375 ,        Not run
